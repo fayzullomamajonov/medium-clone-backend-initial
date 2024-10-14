@@ -29,6 +29,7 @@ INSTALLED_APPS = [
     "django.contrib.messages",
     "django.contrib.staticfiles",
     'rest_framework',
+    # 'users',
 ]
 
 MIDDLEWARE = [
@@ -132,3 +133,4 @@ STATIC_ROOT = BASE_DIR / "static"
 
 DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 
+# AUTH_USER_MODEL = 'users.CustomUser'
